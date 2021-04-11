@@ -1,0 +1,34 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "quotes": ["warn", "single", {"avoidEscape": true}],
+    "curly": "warn",
+    "no-unused-vars": "off",
+    "no-unused-expressions": "warn",
+    "no-shadow": "warn",
+    "prefer-const": "warn",
+    "eqeqeq": "warn",
+    "prefer-spread": "warn",
+    "prefer-object-spread": "warn",
+    "indent": ["warn", 2],
+    "newline-before-return": "warn",
+    "eol-last": "warn",
+    "semi": ["error", "never"],
+    "no-trailing-spaces": "warn"
+  }
+}

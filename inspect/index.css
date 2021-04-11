@@ -1,0 +1,64 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+* {
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+  gap: 8px;
+}
+
+.left, .right {
+  flex-grow: 1;
+  flex-shrink: 0;
+  min-width: 50%;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.node * {
+  cursor: pointer;
+}
+
+.node .children {
+  padding-left: 7px;
+  margin-left: 8px;
+  border-left: 2px solid #e0e0e0;
+}
+
+.title {
+  padding: 4px;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title i {
+  font-size: 12px;
+  font-style: normal;
+  opacity: .25;
+}
+
+.title:hover {
+  background: #d2e69c;
+}
+
+[contenteditable] {
+  background: black;
+  color: white;
+  padding: 8px;
+  outline: none;
+  font-family: monospace;
+  min-height: 256px;
+  min-height: 100vh;
+}
+
+hl {
+  background: #52057b;
+  border-radius: 3px;
+}

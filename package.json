@@ -1,0 +1,30 @@
+{
+  "name": "nextmark",
+  "version": "0.0.1",
+  "description": "Next-gen markdown",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "inspect": "cd ./inspect && npm start",
+    "test": "node --experimental-specifier-resolution=node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loreanvictor/nextmark.git"
+  },
+  "author": "Eugene Ghanizadeh Khoub <ghanizadeh.eugene@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loreanvictor/nextmark/issues"
+  },
+  "homepage": "https://github.com/loreanvictor/nextmark#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0"
+  },
+  "dependencies": {
+    "remark-breaks": "^2.0.2",
+    "remark-parse": "^9.0.0",
+    "unified": "^9.2.1",
+    "unist-util-visit": "^2.0.3"
+  }
+}

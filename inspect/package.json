@@ -1,0 +1,17 @@
+{
+  "name": "inspect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eugene Ghanizadeh Khoub <ghanizadeh.eugene@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "callbag-common": "^0.1.8",
+    "callbag-jsx": "^0.1.13",
+    "snowpack": "^3.2.2"
+  }
+}
