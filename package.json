@@ -25,6 +25,7 @@
     "remark-breaks": "^2.0.2",
     "remark-parse": "^9.0.0",
     "unified": "^9.2.1",
-    "unist-util-visit": "^2.0.3"
+    "unist-util-visit": "^2.0.3",
+    "vfile-location": "^3.2.0"
   }
 }
