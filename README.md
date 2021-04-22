@@ -1,15 +1,18 @@
 <div align="center">
   
-<img src="nextmark-framed.svg" width="320px"/>
+<img src="nextmark-framed.svg" width="384px"/>
+
+<br/>
 
 Next-Gen Markdown
   
 </div>
 
+<br/><br/>
 
-<br/><br/><br/>
+# 
 
-**WORK IN PROGRESS**
+> **WORK IN PROGRESS**
 
 Sample:
 
