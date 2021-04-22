@@ -21,8 +21,11 @@ Sample:
 
 @import 'https://some-server/some-style.css'
 @from 'https://some-other-server/cool-btn.jsx' import { CoolButton }
+
+@import './header.md' as header
 @from './data.yml' import { user }
 
+<header/>
 
 # Hellow {{ user.name }}
 
